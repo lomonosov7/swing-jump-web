@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 		<script>
-		const SJ_BUILD = "534432788f";
+		const SJ_BUILD = "abc5a9f466";
 		fetch("version.json?t=" + Date.now(), {cache: "no-store"}).then(r => r.json()).then(v => {
 			if (v.build && v.build !== SJ_BUILD && new URLSearchParams(location.search).get("v") !== v.build) {
 				location.replace(location.pathname + "?v=" + v.build);
@@ -104,9 +104,9 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="index.js?v=534432788f"></script>
+		<script src="index.js?v=abc5a9f466"></script>
 		<script>
-const GODOT_CONFIG = {"args": [], "canvasResizePolicy": 2, "ensureCrossOriginIsolationHeaders": true, "executable": "index", "experimentalVK": false, "fileSizes": {"index.534432788f.pck": 77680, "index.wasm": 35376909}, "focusCanvas": true, "gdextensionLibs": [], "mainPack": "index.534432788f.pck"};
+const GODOT_CONFIG = {"args": [], "canvasResizePolicy": 2, "ensureCrossOriginIsolationHeaders": true, "executable": "index", "experimentalVK": false, "fileSizes": {"index.abc5a9f466.pck": 87744, "index.wasm": 35376909}, "focusCanvas": true, "gdextensionLibs": [], "mainPack": "index.abc5a9f466.pck"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
